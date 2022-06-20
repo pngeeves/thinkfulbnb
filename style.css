@@ -174,8 +174,9 @@ header nav{
   flex-direction: row;
 }
 .item-form{
-  display: inline-grid;
-  margin: 10px;
+  display: flex;
+  justify-items: start;
+  flex-direction: column;
   }
 form label {
     text-align: left;

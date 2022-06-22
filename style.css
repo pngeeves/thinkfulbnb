@@ -117,7 +117,7 @@ form label {
   margin-bottom: 5px;
   display: inline-block;
   width: 100px;
-  text-align: center;
+  text-align: left;
 }
 
 form select,
@@ -156,31 +156,31 @@ footer p {
   header{
     display: flex;
     justify-content: space-between;  
-}
-header nav{
-  margin-top: 5px;
-}
-.item-double{
-  margin: auto;
-}
-.item-host{
-  margin: auto;
-  padding: 10px;
-}
-}
-
-@media all and (min-width: 990px){
-.group-form{
-  flex-direction: row;
-}
-.item-form{
-  display: flex;
-  justify-items: start;
-  flex-direction: column;
   }
-form label {
+  header nav{
+    margin-top: 5px;
+  }
+  .item-double{
+    margin: auto;
+  }
+  .item-host{
+    margin: auto;
+    padding: 10px;
+  }
+  .group-form{
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .item-form{
+    display: flex;
+    justify-items: start;
+    flex-direction: column;
+  }
+  form label {
     text-align: left;
   }
 }
+
+
 
 

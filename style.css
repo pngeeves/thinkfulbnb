@@ -112,7 +112,6 @@ form label {
   margin-bottom: 5px;
   display: inline-block;
   width: 100px;
-  text-align: center;
 }
 
 form select,
@@ -181,6 +180,9 @@ form div{
   align-content: center;
   justify-content: center;
   flex-direction: column;
+  }
+ form button{
+   flex: 1;
   }
 }
 
